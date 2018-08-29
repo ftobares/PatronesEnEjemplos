@@ -1,5 +1,9 @@
 package ar.com.ftobares.patronesDeCreacion.abstractfactory;
 
-public class AbstractFactory {
+public interface AbstractFactory {
+	
+	public Archivo generarArchivo();
+	
+	public CodigoBarras generarCodigoDeBarras();
 
 }
