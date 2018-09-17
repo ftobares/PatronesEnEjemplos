@@ -27,9 +27,13 @@ import java.util.List;
  * Otra forma de implementarlo es la que se ve en el ejemplo a continuación.
  * 
  * */
-public class Main {	
+public class Main {
+	
+	public static void main(String[] args) {
+		ejecutarFacade();
+	}
 
-	public void ejecutarFacade() {
+	public static void ejecutarFacade() {
 		
 		//Instancio la facade (Singleton)
 		ServicioPagosFacade facade = new ServicioPagosFacade();

@@ -14,9 +14,13 @@ package ar.com.ftobares.patronesDeCreacion.prototype;
  * 
  * */
 public class Main {
+	
+	public static void main(String[] args) {
+		ejecutarPrototype();
+	}
 
 	//Ejemplo muy simple pero que representa un poco la idea del patron
-	public void ejecutarPrototype() {	
+	public static void ejecutarPrototype() {	
 		
 		//Cuando se necesita crear una nueva cuenta invitado
 		//seteo el nombre, sucursal actual y el saldo que tiene.

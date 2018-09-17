@@ -14,8 +14,12 @@ package ar.com.ftobares.patronesDeCreacion.factorymethod;
  * */
 public class Main {
 	
+	public static void main(String[] args) {
+		ejecutarFactoryMethod();
+	}
+	
 	//FIXME Completar logica para que funcione
-	public void ejecutarFactoryMethod() {
+	public static void ejecutarFactoryMethod() {
 		
 		FabricaGestiones fabrica = new FabricaGestiones();
 		Cliente cliente = new Cliente();

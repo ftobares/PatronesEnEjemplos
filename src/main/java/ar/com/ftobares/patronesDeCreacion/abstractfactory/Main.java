@@ -24,11 +24,15 @@ package ar.com.ftobares.patronesDeCreacion.abstractfactory;
  * */
 public class Main {
 	
+	public static void main(String[] args) {
+		ejecutarAbstractFactory(Tipo.EXCEL.toString());
+	}
+	
 	public enum Tipo {
 		CSV, EXCEL, PDF;
 	}
 	
-	public AbstractFactory ejecutarAbstractFactory(String type) {
+	public static AbstractFactory ejecutarAbstractFactory(String type) {
 		
 		if(type.equalsIgnoreCase(Tipo.CSV.toString())) {
 			return new FabricaCSV();
