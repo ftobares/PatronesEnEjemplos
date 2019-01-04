@@ -1,5 +1,7 @@
 package ar.com.ftobares.patronesDeComportamiento.strategy;
 
-public class Strategy {
+public interface Strategy {
+	
+	<T> void analizar(T... input);
 
 }
